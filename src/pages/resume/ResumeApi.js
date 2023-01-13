@@ -1,0 +1,51 @@
+const ResumeApi =[
+    {
+        id:1,
+        category:'education',
+        year:'University of DVI',
+        title:'Personal portfolio april 1',
+        desc:'design for technology & services design for technology & services design for technology & services',
+        rate:'4.30/5',
+    },
+    {
+        id:2,
+        category:'education',
+        year:'University of DVI',
+        title:'Personal portfolio april 2',
+        desc:'design for technology & services design for technology & services design for technology & services',
+        rate:'4.30/5',
+    },
+    {
+        id:3,
+        category:'education',
+        year:'University of DVI',
+        title:'Personal portfolio april 3',
+        desc:'design for technology & services design for technology & services design for technology & services',
+        rate:'4.30/5',
+    },
+    {
+        id:4,
+        category:'experience',
+        year:'University of DVI',
+        title:'Personal portfolio april 4',
+        desc:'design for technology & services design for technology & services design for technology & services',
+        rate:'4.30/5',
+    },
+    {
+        id:5,
+        category:'experience',
+        year:'University of DVI',
+        title:'Personal portfolio april 5',
+        desc:'design for technology & services design for technology & services design for technology & services',
+        rate:'4.30/5',
+    },
+    {
+        id:6,
+        category:'experience',
+        year:'University of DVI',
+        title:'Personal portfolio april ',
+        desc:'design for technology & services design for technology & services design for technology & services',
+        rate:'4.30/5',
+    },
+]
+export default ResumeApi

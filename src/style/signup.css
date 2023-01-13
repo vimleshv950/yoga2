@@ -1,0 +1,19 @@
+.signup h4 {
+    color: #fe0100;
+  }
+  .signup-btn {
+    margin: 20px 0;
+  }
+  .show-pass-forgot {
+    padding: 5px 0px;
+  }
+  .show-pass-forgot span i {
+    padding: 0px 10px;
+  }
+  .show-pass-forgot .forgot-link {
+      padding: 0px 10px;
+    }
+    /* .signin-form .signin-btn{
+      width: 20%;
+      color: #ff014f;
+    } */

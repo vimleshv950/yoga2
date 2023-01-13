@@ -1,0 +1,66 @@
+.Listing_item {
+    position: relative;
+  }
+
+    .Listing_item_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 35px;
+      }
+
+  .Listing_item .box {
+    border-radius: 10px;
+    position: relative;
+  }
+  .Listing_item .box:hover {
+    background: none;
+    transform: translateY(-0);
+  }
+  
+  .Listing_item .img {
+    /* height: 300px; */
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .Listing_item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  .Listing_item .box .img:hover img {
+    transform: scale(1.2);
+  }
+  .Listing_item .category {
+    margin: 20px 0 30px 0;
+    text-transform: uppercase;
+  }
+  .Listing_item .category span {
+    color: #fe0100;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  .Listing_item .arrow {
+    position: absolute;
+    right: 30px;
+    bottom: 11%;
+    transform: rotate(-45deg);
+    color: #fe0100;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .Listing_item .title:hover .arrow {
+    opacity: 1;
+  }
+  .Listing_item h2 {
+    font-size: 18px;
+    transition: 0.5s;
+    padding-bottom: 30px;
+  }
+  .Listing_item .box:hover h2 {
+    color: #fe0100;
+  }
+  .Listing_item .box:hover {
+    color: black;
+  }
+  

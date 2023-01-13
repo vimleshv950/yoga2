@@ -1,0 +1,15 @@
+.profile .left img{
+    width: 60%;
+}
+
+
+
+@media (max-width: 768px) {
+ 
+   .profile .container {
+    text-align: center;
+   }
+   .create_list{
+    margin-top: 25px;
+   }
+  }

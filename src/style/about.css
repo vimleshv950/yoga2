@@ -1,0 +1,182 @@
+/* -----------------company----------------------- */
+.company {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+}
+.company-info { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.about_img {
+  width: 100%;
+  margin: 1rem 0rem 0rem 2rem;
+}
+
+.img .about_hero_img {
+  width: 100%;
+}
+
+.company-info {
+  width: 100%;
+  margin-right: 4rem;
+}
+
+.company-info span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.company-info span .our {
+  color: #fe0100;
+}
+
+.company-info p {
+  font-size: 1.1rem;
+  text-align: justify;
+} 
+/* ----------------------------------------------- */
+.team {
+  display: flex;
+  justify-content: center;
+}
+.team span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-bottom: 4px solid #fe0100;
+} 
+
+
+
+.yellow-surname {
+  color: #fe0100;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .left,
+  .right {
+    width: 95%;
+  }
+  .about_grid { 
+    display: flex;
+    flex-direction: column;    text-align: center;
+    align-items: center;
+    justify-content: center;
+  } 
+  /* .text-center h4 {
+    text-align: center;
+   } */
+
+.about .container .heading { 
+    margin: 50px 0 50px 0;
+}
+} 
+/* ---------------------- */
+
+hr {
+  border: none;
+  border-top: 1px solid black;
+}
+
+h1,
+h2 {
+  padding: 20px;
+}
+
+.about_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1em;
+  padding: 10px 20px;
+  background-color: wheat;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.team_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.main p {
+  text-align: justify;
+  padding: 10px 0;
+}
+
+.main span {
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 20px 0;
+}
+
+.dots {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  margin: 1em;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .about_box {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about_box {
+    flex-direction: column;
+    width: 80%;
+    padding-top: 15px;
+  }
+} 
+
+/* team section styling */
+ .team {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin: 20px 10px;
+}
+.card {
+  padding: 10px;
+}
+
+.card h4,
+.card p {
+  text-align: justify;
+  width: 200px;
+  margin: 10px auto;
+} 
