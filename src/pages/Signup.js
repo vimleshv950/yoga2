@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import Layout from "../component/Layouts/Layout";
-import {FiFacebook, FiInstagram, FiTwitter} from 'react-icons/fi'
+import {FiFacebook, FiInstagram} from 'react-icons/fi'
 import "../style/signup.css";
 import {doc, setDoc, serverTimestamp} from 'firebase/firestore'
 import {
@@ -16,7 +16,7 @@ import OAuth from "../component/OAuth";
 
 
 
-const auth = getAuth();
+// const auth = getAuth();
 
 const Signup = () => {
   

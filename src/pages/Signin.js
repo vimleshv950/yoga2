@@ -5,7 +5,7 @@ import Layout from "../component/Layouts/Layout";
 import "../style/signin.css";
 import { BsFillEyeFill } from "react-icons/bs";
 import { toast } from "react-toastify";
-import {FiFacebook, FiInstagram, FiTwitter} from 'react-icons/fi'
+import {FiFacebook, FiInstagram} from 'react-icons/fi'
 import OAuth from "../component/OAuth";
 
 const Signin = () => {
@@ -17,7 +17,7 @@ const Signin = () => {
     password: "",
   });
 
-  const { name, email, password, phone } = formData;
+  const {  email, password } = formData;
 
   const navigate = useNavigate();
 
