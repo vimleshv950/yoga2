@@ -1,4 +1,4 @@
-import logo from "../../pic/logo.png";
+
 import "../../style/header.css";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -18,7 +18,7 @@ const Header = () => {
       <header className="header">
         <div className="container d_flex">
           <div className="logo">
-            <img src={logo} alt="" />
+          <img src="/image/logo.png" alt="logo" />
           </div>
           <div className="navlink">
             {/* <ul className="link f_flex uppercase"> */}
@@ -31,13 +31,16 @@ const Header = () => {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/feature">feature</NavLink>
+                <NavLink to="/gallery">Gallery</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/blog">blog</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/about">about</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/contactnav">Contact</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/profile">profile</NavLink>

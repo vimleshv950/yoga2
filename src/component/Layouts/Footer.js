@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../pic/logo.png";
+
 import { Link } from "react-router-dom";
-import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
+import { FiFacebook, FiInstagram, FiYoutube } from "react-icons/fi";
 import "../../style/footer.css";
 
 const Footer = () => {
@@ -19,31 +19,32 @@ const Footer = () => {
             <FiInstagram />
           </button>
           <button className="btn_shadow"  style={{marginRight:"20px"}}>
-            <FiTwitter />
+            
+            <FiYoutube />
           </button>
         </div>
-      </div>
+      </div> 
       <div className="footer-center">
         <div>
           <i className="fa fa-map-marker"></i>
           <p>
-            <span> Street name and number</span> City, Country
+            <span>  EurostarINN Hotel</span> Khajuraho 471606 MP India
           </p>
         </div>
         <div>
           <i className="fa fa-phone"></i>
-          <p> (+00) 0000 000 000</p>
+          <p> +91 9425143823</p>
         </div>
         <div>
           <i className="fa fa-envelope"></i>
           <p>
-            <Link to="/"> office@company.com</Link>
+            <Link to="/"> jamunamishra@yahoo.com</Link>
           </p>
         </div>
       </div>
       <div className="footer-right">
         <div className="logo">
-          <img src={logo} alt="" />
+        <img src="/image/logo.png" alt="logo" />
         </div>
         <p className="menu">
           <Link to="/"> Home</Link> |<Link to="/"> About</Link> |

@@ -16,8 +16,9 @@ import Listing from "./pages/Listing";
 
 import PrivateRoute from "./component/PrivateRoute";
 import Blog_data from "./pages/blog/Blog_data";
-import Feature from "./pages/Feature";
+import Gallery from "./pages/gallery/Gallery";
 import Blog from "./pages/blog/Blog";
+import ContactNav from "./pages/ContactNav";
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
         {/* <Route path="/Blog" element={<Blog_data />} /> */}
         <Route path="/contact/:contactId" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/feature" element={<Feature />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/category/:categoryName" element={<Category />} />
@@ -44,6 +45,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/create-listing" element={<CreateListing />} />
         <Route path="/forgotpassword" element={<ForgotPassword />} />
+        <Route path="/contactnav" element={<ContactNav />} />
       </Routes>
     </BrowserRouter>
   );

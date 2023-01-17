@@ -5,6 +5,7 @@ import Layout from "../component/Layouts/Layout";
 import "../style/signin.css";
 import { BsFillEyeFill } from "react-icons/bs";
 import { toast } from "react-toastify";
+import {FiFacebook, FiInstagram, FiTwitter} from 'react-icons/fi'
 import OAuth from "../component/OAuth";
 
 const Signin = () => {
@@ -63,21 +64,22 @@ const Signin = () => {
                   <img src="" alt="" />
                 </div> */}
                 <div className="details signin">
-                  <h1>RAnveer Vishwa</h1>
+                  {/* <h1>RAnveer Vishwa</h1> */}
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eveniet, dignissimos harum.
+                    {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eveniet, dignissimos harum. */}
                   </p>
                   <br />
                   <h4>Sign-in with</h4>
 
                   <div className="button f_flex">
                     <button className="btn_shadow">
-                      <i className="fab fa-facebook-f"></i>
+                     <FiFacebook />
                     </button>
                     <button className="btn_shadow">
-                      <i className="fab fa-instagram"></i>
+                       <FiInstagram />
                     </button>
+                    
                     <OAuth/>
                   </div>
                 </div>

@@ -64,13 +64,13 @@ const Home = () => {
               <div className="col_1">
                 <h4>BEST SKILL ON</h4>
                 <button className="btn_shadow">
-                  <img src="/image/yoga1.png" alt="" />
+                  <img src="/image/yoga1.png" alt="yoga" />
                 </button>
                 <button className="btn_shadow">
-                  <img src="/image/yoga2.png" alt="" />
+                  <img src="/image/yoga2.png" alt="yoga" />
                 </button>
                 <button className="btn_shadow">
-                  <img src="/image/yoga3.png" alt="" />
+                  <img src="/image/yoga3.png" alt="yoga" />
                 </button>
               </div>
             </div>

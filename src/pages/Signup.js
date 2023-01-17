@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import Layout from "../component/Layouts/Layout";
-
+import {FiFacebook, FiInstagram, FiTwitter} from 'react-icons/fi'
 import "../style/signup.css";
 import {doc, setDoc, serverTimestamp} from 'firebase/firestore'
 import {
@@ -67,7 +67,7 @@ const Signup = () => {
       <section className="Contact signup" id="contact">
         <div className="container top">
         <div className="heading text-center">
-            {/* <h4>SIGNIN</h4> */}
+            <h4>SIGNUP</h4>
             <h1>SIGN-UP</h1>
           </div>
 
@@ -78,21 +78,22 @@ const Signup = () => {
                   <img src="" alt="" />
                 </div>
                 <div className="details">
-                  <h1>Ranveer Vishwa</h1>
+                  {/* <h1>Ranveer Vishwa</h1> */}
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eveniet, dignissimos harum.
+                    {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eveniet, dignissimos harum. */}
                   </p>
                   <br />
                   <h4>Sign-up with</h4>
 
                   <div className="button f_flex">
                     <button className="btn_shadow">
-                      <i className="fab fa-facebook-f"></i>
+                       <FiFacebook />
                     </button>
                     <button className="btn_shadow">
-                      <i className="fab fa-instagram"></i>
-                    </button>
+                   <FiInstagram />
+                    </button> 
+                    
                     <OAuth/>
                   </div>
                 </div>
